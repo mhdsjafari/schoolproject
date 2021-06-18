@@ -1,0 +1,56 @@
+.main_form_button {
+  width: 100%;
+  padding: 8px;
+  color: #fff;
+  background-color: none;
+  background-image: linear-gradient(50deg, #3b81f3ac 0%, #aec8f3 100%);
+  border: none;
+  margin: 10px 0px 5px 0;
+  cursor: pointer;
+}
+.main_form_button:hover {
+  background-image: linear-gradient(200deg, #3b81f3ac 0%, #aec8f3 100%);
+}
+.modal1 {
+  border: none;
+}
+.modal_body1 {
+  font-size: 16px;
+  font-weight: 500;
+}
+.modal_body2 {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 3rem 0;
+  text-align: center;
+}
+.modal_button {
+  width: 8rem;
+  padding: 10px 10px;
+  border-radius: 10px;
+  background-color: none;
+  border: none;
+  margin: 10px;
+  cursor: pointer;
+  color: #0d6efd;
+  background-color: #fff;
+  box-shadow: 2px 2px 2px 2px #3b81f3ac;
+}
+.modal_button:hover {
+  background-color: #fff;
+  color: #0d6efd;
+  box-shadow: 2px 2px 2px 2px #80acf3ac;
+}
+.modal_button:active {
+  box-shadow: none;
+}
+.btn-primary:active:focus {
+  box-shadow: none !important;
+}
+.create-account {
+  color: #3b81f3;
+  cursor: pointer;
+}
+.btn-form {
+  grid-column: 1/3;
+}
